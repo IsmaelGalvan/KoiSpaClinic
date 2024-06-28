@@ -297,3 +297,86 @@ footer i{
   margin-top: 20px;
   font-style: italic;
 }
+
+.grupo_card {
+  display: show;
+}
+
+
+
+@media (max-width: 500px) {
+
+  .grupo_card {
+    display: none;
+  }
+
+  .principal{
+    margin-top: 45px;
+  }
+
+  .principal h1{
+    font-size: 20px !important;
+  }
+  
+  .principal h4{
+    font-size: 15px !important;
+  }
+
+  .contenedor_img{
+    height: 300px !important;
+  }
+
+  .header, .footer {
+      text-align: center;
+      padding: 10px;
+  }
+  
+  .nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .nav a {
+      margin: 5px 0;
+  }
+  
+  .content {
+      font-size: 14px;
+  }
+  
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .serviciobtn{
+    display: show;
+  }
+
+  .carousel{
+    margin-top: 50px;
+  }
+
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-info {
+    background-color: #5F6F52;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .map-container {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+
